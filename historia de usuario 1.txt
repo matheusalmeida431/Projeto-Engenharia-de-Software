@@ -1,0 +1,4 @@
+-- História de usuário 1 --
+
+
+Como usuário comum, gostaria de ver os produtos disponíveis para compra.

@@ -1,0 +1,3 @@
+-- História de Usúario --
+
+Como vendedor da loja, gostaria de poder adicionar minhas mercadorias
