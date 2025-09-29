@@ -18,9 +18,9 @@ Título do Projeto
 Descrição do seu projeto.
 
 ### Componentes
-- Aluno(a) 1
-- Aluno(a) 2
-- Aluno(a) 3
+- Luan Pedro Abreu Vieira 
+- Matheus Almeida Fontes
+- Pedro Henrique da Silva Santos
 
 ## Como clonar ou baixar
 
