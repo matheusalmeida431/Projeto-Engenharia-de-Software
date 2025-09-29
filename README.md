@@ -12,7 +12,7 @@ Repositório de exemplo para as atividades da disciplina de Engenharia de Softwa
 ## Sobre o Projeto
 
 ### Título
-Título do Projeto
+Atividade Engenharia de Software
 
 ### Descrição
 Descrição do seu projeto.
