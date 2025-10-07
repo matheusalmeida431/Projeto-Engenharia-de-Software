@@ -1,7 +1,3 @@
-# Eng-de-Software-UFRN
-
-Repositório de exemplo para as atividades da disciplina de Engenharia de Software da UFRN.
-
 ## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
@@ -12,48 +8,17 @@ Repositório de exemplo para as atividades da disciplina de Engenharia de Softwa
 ## Sobre o Projeto
 
 ### Título
-Atividade Engenharia de Software
+Engenharia de Software
 
 ### Descrição
-Descrição do seu projeto.
+Repositório destinado a disciplina DCA3603 - Engenharia de Software. As atividades realizadas durante o semestre estão guardadas em suas respectivas pastas, algumas acompanham descrição em markdown próprio.
 
 ### Componentes
 - Luan Pedro Abreu Vieira 
 - Matheus Almeida Fontes
 - Pedro Henrique da Silva Santos
 
-## Como clonar ou baixar
-
-Você pode obter este repositório de três formas:
-
-### Clonar via HTTPS
-
-```bash
-git clone https://github.com/mvapedrosa/Eng-de-Software-UFRN.git
-```
-
-Isso criará uma cópia local do repositório em sua máquina.
-
-### Clonar via SSH
-
-Se você já configurou sua chave SSH no GitHub, pode clonar usando:
-
-```bash
-git clone git@github.com:mvapedrosa/Eng-de-Software-UFRN.git
-```
-
-Isso criará uma cópia local do repositório em sua máquina.
-
-### Baixar como ZIP
-
-1. Acesse a página do repositório no GitHub:
-   [https://github.com/mvapedrosa/Eng-de-Software-UFRN](https://github.com/mvapedrosa/Eng-de-Software-UFRN)
-2. Clique no botão **Code** (verde).
-3. Selecione **Download ZIP**.
-4. Extraia o arquivo ZIP para o local desejado em seu computador.
-
-
-## Estrutura do Projeto
+##Estrutura do Projeto
 
 > *Esta seção pode variar conforme a organização do repositório de cada grupo.*
 
@@ -61,16 +26,14 @@ Isso criará uma cópia local do repositório em sua máquina.
 Eng-de-Software-UFRN/
 ├── LICENSE
 ├── README.md
-├── <diretório-x>/
-├── <diretório-y>/
-└── <diretório-z>/
+├── <Atividade 1>/
+├── <Atividade 2>/
+└── <Atividade 3>/
 ```
 
 - LICENSE: termos da licença do projeto (MIT).
 - README.md: este arquivo de apresentação.
-- X: descrição do diretório X.
-- Y: descrição do diretório Y.
-- Z: descrição do diretório Z.
+- As pastas nomeadas Atividade se referem as atividades realizadas. Detros dessas há o desenvolvimento e em algumas a explicação do que foi feito.
 
 ## Licença
 
