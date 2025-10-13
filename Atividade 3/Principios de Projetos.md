@@ -21,7 +21,6 @@ SOLID é um acrônimo para cinco princípios de design de classes em programaç�
 *Aplicação no Projeto:*
 Nossos diagramas já refletem esse princípio:
 * *Classe Usuario:* Sua única responsabilidade é gerenciar os dados de autenticação e perfil do usuário (nome, email, senha, endereço).
-* *Classe Vendedor:* Sua responsabilidade é gerenciar os dados específicos de um vendedor (como o nome da loja), atuando como um "papel" que um usuário pode assumir.
 * *Classe Produto:* Sua única responsabilidade é conter as informações sobre um produto (nome, descrição, preço, etc.).
 
 Se precisássemos, por exemplo, adicionar um sistema de Pedidos, criaríamos uma nova classe Pedido, em vez de adicionar essa responsabilidade à classe Usuario ou Produto.
@@ -84,3 +83,17 @@ A forma correta, aplicando o DIP, seria:
 3.  Criaríamos uma classe concreta, como ProdutoRepositoryMySQL, que implementa a interface IProdutoRepository e contém o código específico para o MySQL.
 
 Dessa forma, se no futuro quisermos trocar o banco de dados para PostgreSQL, basta criar uma nova classe ProdutoRepositoryPostgreSQL e "injetar" no sistema, sem alterar nenhuma regra de negócio.
+
+### 6. ( Extra - Mencionado nos slides sobre os princípios ) Principle of Least Knowledge - Princípio de Demeter ou Principio do menor
+
+> "A implementação de um método deve invocar apenas o método necessário para cada função."
+
+*Explicação:* Ao usar os métodos de uma classe, evitar fazer chamadas aninhadas do tipo  *obj.getA().getB().getC().getD().getOqueEuPreciso()*.
+
+*Aplicação no Projeto:*
+Todas as chamadas devem seguir o princípios de Demeter, se possível, assim o projeto será:
+
+1.  Visualmente fácil de ser lido e objetivo;
+2.  Fácil de debuggar e corrigir;
+
+O principios do menor é mais uma sugestão de boa prática do que um princípios completamente estrito, tanto que não é inserido junto dos princípios SOLID.
