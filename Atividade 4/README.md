@@ -2,7 +2,7 @@
 
 ## 1. MVP Implementado
 
-O Produto Mínimo Viável (MVP) consiste no **Núcleo de Gerenciamento de Entidades** para o sistema de Loja Virtual, conforme implementado no arquivo `marketplace_mvp.py`.
+O Produto Mínimo Viável (MVP) consiste no **Núcleo de Gerenciamento de Entidades** para o sistema de Loja Virtual, conforme implementado no arquivo `Prototipo_MVP_Atividade 4.ipynb`.
 
 As funcionalidades principais são:
 1.  **Modelagem de Dados:** Classes `Usuario`, `Vendedor` e `Produto`.
