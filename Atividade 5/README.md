@@ -1,3 +1,5 @@
+Os testes implementados em tests.py verificam os requisitos funcionais do sistema, como a criação de produtos para venda, cadastro de usuário como vendedor e criação de novo usuário utilizando casos de usos e verificando se o resultado esperado das chamadas das funções que implementam os requisitos, ocorrem. Os testes foram feitos utilizando as bibliotecas unittest e coverage.
+
 Para executar o sistema utilize:
 
 > python3 main4.py
