@@ -31,7 +31,7 @@ Talvez o comando seja diferentes pois fiz a instalação do coverage pelo WSL. A
 
 Considerando que o coverage calcula a cobertura utilizando TODAS as linhas executáveis do código, há uma certa incoerência na porcentagem de cobertura pois como estamos usando a biblioteca easyGUI a qual cria uma interface gráfica, vários comando são para exibição de telas, interação do usuário com a tela e recebimento de dados pala GUI. Esses comandos não são executados nos teste de tests.py pois dependem da iteração do usuário. Então 19 linhas explicitamente usam comando da biblioteca easyGUI e 6 métodos não são chamados pois não são classe que implementam a lógica, mas implementam a interação com o usuário. 
 
-Se tirarmos somente as linhas da biblioteca easyGUI do cálculo ficamos com 175 statements com 106 misses, a cobertura então é aproximadamente 60.57% [ (106*100) / 175 ] . Se não considerarmos as linhas dos métodos iterativos/gráficos a cobertura é quase completa. 
+Se tirarmos somente as linhas da biblioteca easyGUI do cálculo ficamos com 175 statements com 106 misses, a cobertura então é aproximadamente 60.57% [ (106*100) / 175 ] . Se não considerarmos as linhas dos métodos iterativos/visuais a cobertura é quase completa. 
 
 
 É possível também exectuar < python3-coverage html > o qual irá gerar uma pasta chamada *htmlcov* com informações visuais da cobertura. Só rodar a página gerada que será possível ver quais linhas foram executadas e quais não foram.
