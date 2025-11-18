@@ -22,11 +22,11 @@ Talvez o comando seja diferentes pois fiz a instalação do coverage pelo WSL. A
 
  Se conseguir executar, será exibida a quantidade de linhas de comandos no código main4.py ( Stmts ), quantidade de linhas não executadas ( Miss ) e a cobertura em porcentagem ( Cover ). No terminal deve aparecer algo do tipo:
 
-Name      |   Stmts |  Miss | Cover
 
-main4.py  |   194   |  106  |  45%
-
-TOTAL     |   194   |  106  |  45%
+| Name | Stmts | Miss | Cover |
+| :--- | :---: | :--: | :---: |
+| main4.py | 194 | 106 | 45% |
+| **TOTAL** | **194** | **106** | **45%** |
 
 
 Considerando que o coverage calcula a cobertura utilizando TODAS as linhas executáveis do código, há uma certa incoerência na porcentagem de cobertura pois como estamos usando a biblioteca easyGUI a qual cria uma interface gráfica, vários comando são para exibição de telas, interação do usuário com a tela e recebimento de dados pala GUI. Esses comandos não são executados nos teste de tests.py pois dependem da iteração do usuário. Então 19 linhas explicitamente usam comando da biblioteca easyGUI e 6 métodos não são chamados pois não são classe que implementam a lógica, mas implementam a interação com o usuário. 
