@@ -35,3 +35,17 @@ Se tirarmos somente as linhas da biblioteca easyGUI do cálculo ficamos com 175 
 
 
 É possível também exectuar < python3-coverage html > o qual irá gerar uma pasta chamada *htmlcov* com informações visuais da cobertura. Só rodar a página gerada que será possível ver quais linhas foram executadas e quais não foram.
+
+### Prints:
+
+### unittests
+
+<img href="prints\unittests.jpg">
+
+### Relatório da lib coverage
+
+<img href="prints\coverage_Report.jpg">
+
+### HTML gerado pela coverage
+
+<img href="prints\coverage_html.jpg">
