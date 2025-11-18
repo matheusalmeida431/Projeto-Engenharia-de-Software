@@ -40,12 +40,12 @@ Se tirarmos somente as linhas da biblioteca easyGUI do cálculo ficamos com 175 
 
 ### unittests
 
-<img href="prints\unittests.jpg">
+<img ref="prints\unittests.jpg">
 
 ### Relatório da lib coverage
 
-<img href="prints\coverage_Report.jpg">
+<img ref="prints\coverage_Report.jpg">
 
 ### HTML gerado pela coverage
 
-<img href="prints\coverage_html.jpg">
+<img ref="prints\coverage_html.jpg">
