@@ -23,9 +23,7 @@ Talvez o comando seja diferentes pois fiz a instalação do coverage pelo WSL. A
  Se conseguir executar, será exibida a quantidade de linhas de comandos no código main4.py ( Stmts ), quantidade de linhas não executadas ( Miss ) e a cobertura em porcentagem ( Cover ). No terminal deve aparecer algo do tipo:
 
 Name      |   Stmts |  Miss | Cover
-- - - - - - - - - - - - - - - - - -
 main4.py  |   194   |  106  |  45%
-- - - - - - - - - - - - - - - - - -
 TOTAL     |   194   |  106  |  45%
 
 
