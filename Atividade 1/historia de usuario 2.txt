@@ -1,3 +1,20 @@
 -- História de Usúario --
+-- Adicionar Mercadorias --
 
-Como vendedor da loja, gostaria de poder adicionar minhas mercadorias
+Como vendedor cadastrado, eu quero adicionar novos produtos ao catálogo, fornecendo informações detalhadas e fotos, para que eu possa ofertar meus itens aos clientes da plataforma.
+
+Critérios de Aceitação:
+
+Apenas usuários identificados e com perfil de vendedor ativo podem acessar essa funcionalidade.
+
+O sistema deve exigir o preenchimento dos campos obrigatórios: Nome e URL da Imagem.
+
+O campo de "Preço" deve aceitar valores numéricos e tratar automaticamente o uso de vírgula (,) convertendo para ponto (.).
+
+O sistema deve validar se a URL da imagem termina com extensões válidas (.png, .jpg, .gif).
+
+Após o cadastro, o produto deve aparecer imediatamente na listagem geral.
+
+Prioridade: Alta (Must Have - Sem isso a loja não tem itens).
+
+Estimativa: 5 Pontos (Complexidade alta: envolve validação de permissão de vendedor, tratamento de erros de input e regex de URL).
