@@ -1,4 +1,20 @@
 -- História de usuário 1 --
+-- Visualizar Catálogo de Produtos --
 
+Como cliente da loja, eu quero visualizar a lista de todos os produtos disponíveis com seus detalhes e imagens, para que eu possa escolher quais itens desejo comprar.
 
-Como usuário comum, gostaria de ver os produtos disponíveis para compra.
+Critérios de Aceitação:
+
+O sistema deve exibir o nome, descrição, preço formatado (R$) e o nome da loja/vendedor de cada produto.
+
+O sistema deve carregar e exibir a imagem do produto a partir da URL fornecida (suportando PNG, GIF e JPG).
+
+Se a imagem não carregar ou a URL for inválida, o sistema deve exibir os detalhes em texto sem quebrar a aplicação.
+
+Caso não existam produtos cadastrados, o sistema deve exibir a mensagem "Nenhum produto cadastrado no momento".
+
+O usuário deve conseguir selecionar um produto da lista para ver seus detalhes em uma janela separada.
+
+Prioridade: Alta (Must Have - Essencial para o MVP).
+
+Estimativa: 3 Pontos (Complexidade média: envolve interface gráfica e tratamento de download de imagens).
