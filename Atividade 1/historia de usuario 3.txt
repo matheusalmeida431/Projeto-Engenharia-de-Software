@@ -1,4 +1,21 @@
 -- História de Usúario 3 --
+-- Cadastro de Dados Pessoais -- 
 
-Como usúario, eu gostaria de cadastrar meus dados pessoais
+Como visitante da loja, eu quero criar uma conta fornecendo meus dados pessoais e de endereço, para que eu possa ter uma identidade no sistema e futuramente realizar compras ou vendas.
+
+Critérios de Aceitação:
+
+O sistema deve solicitar Nome, E-mail, Senha e Endereço completo.
+
+Validação de Nome: Não deve aceitar campos vazios ou números.
+
+Validação de E-mail: Deve verificar se o formato é válido (ex: texto@dominio.com) usando Regex.
+
+Validação de Senha: Deve exigir a confirmação da senha e garantir que ambas sejam iguais.
+
+Endereço: Deve ser coletado de forma estruturada (Rua, Número, Bairro, Cidade) e validar se o CEP contém 8 dígitos numéricos.
+
+Prioridade: Alta (Must Have - Pré-requisito para qualquer outra ação).
+
+Estimativa: 5 Pontos (Complexidade alta: possui muitas regras de validação de dados e múltiplos campos de entrada).
 
