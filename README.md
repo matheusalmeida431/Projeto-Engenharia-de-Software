@@ -1,8 +1,8 @@
 ## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
-- [Como clonar ou baixar](#como-clonar-ou-baixar)  
-- [Estrutura do Projeto](#estrutura-do-projeto)  
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Instalação e Execução](#instalacao-e-execucao)
 - [Licença](#licença)  
 
 ## Sobre o Projeto
@@ -33,7 +33,7 @@ Eng-de-Software-UFRN/
 └── <Atividade 5>/                # Versão Final com Testes (main4.py, tests.py)
 ```
 
-- Instalação e Execução
+### Instalação e Execução
 Siga os passos abaixo para rodar a versão final do projeto (localizada na Atividade 5).
 
 Clone o repositório:
