@@ -37,9 +37,6 @@ Eng-de-Software-UFRN/
 Siga os passos abaixo para rodar a versão final do projeto (localizada na Atividade 5).
 
 Clone o repositório:
-
-Bash
-
 git clone [https://github.com/matheusalmeida431/Projeto-Engenharia-de-Software.git](https://github.com/matheusalmeida431/Projeto-Engenharia-de-Software.git)
 cd Projeto-Engenharia-de-Software
 
@@ -53,6 +50,7 @@ python main4.py
 A interface gráfica da loja será aberta.
 
 #### Testes e Qualidade
+
 Para garantir a qualidade do software, foram aplicados testes na versão final (Atividade 5). Para executar os testes Unitários ( Dentro da pasta 'Atividade 5') :
 python -m unittest tests.py
 
