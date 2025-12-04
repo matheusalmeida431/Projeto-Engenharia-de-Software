@@ -28,13 +28,52 @@ Eng-de-Software-UFRN/
 ├── README.md
 ├── <Atividade 1>/
 ├── <Atividade 2>/
-└── <Atividade 3>/
+├── <Atividade 3>/                # Relatório de Princípios SOLID
+├── <Atividade 4>/                # Código inicial do MVP (.ipynb)
+└── <Atividade 5>/                # Versão Final com Testes (main4.py, tests.py)
 ```
 
-- LICENSE: termos da licença do projeto (MIT).
-- README.md: este arquivo de apresentação.
-- As pastas nomeadas Atividade se referem as atividades realizadas. Detros dessas há o desenvolvimento e em algumas a explicação do que foi feito.
+Instalação e Execução
+Siga os passos abaixo para rodar a versão final do projeto (localizada na Atividade 5).
 
-## Licença
+Clone o repositório:
 
-Este projeto está licenciado sob a **Licença MIT**. Veja o arquivo `LICENSE` para mais detalhes.
+Bash
+
+git clone [https://github.com/matheusalmeida431/Projeto-Engenharia-de-Software.git](https://github.com/matheusalmeida431/Projeto-Engenharia-de-Software.git)
+cd Projeto-Engenharia-de-Software
+Instale as dependências: O projeto necessita das seguintes bibliotecas para interface gráfica e manipulação de imagens:
+
+Bash
+
+pip install easygui requests Pillow coverage
+
+Execute o Sistema (Loja Virtual): Navegue até a pasta da versão final e execute:
+
+Bash
+
+cd "Atividade 5"
+python main4.py
+A interface gráfica da loja será aberta.
+
+Testes e Qualidade
+Para garantir a qualidade do software, foram aplicados testes na versão final (Atividade 5).
+
+- Executar Testes Unitários
+
+# Dentro da pasta 'Atividade 5'
+python -m unittest tests.py
+
+- Verificar Cobertura (Coverage)
+
+Para gerar o relatório de cobertura de código:
+
+Bash
+
+coverage run --source=main4 -m unittest tests.py
+coverage report
+
+Nota: A cobertura de código gira em torno de 60% pois o código de interface gráfica (easygui) foi isolado da lógica de negócio testável. Para mais informações veja o README da atividade 5.
+
+Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
