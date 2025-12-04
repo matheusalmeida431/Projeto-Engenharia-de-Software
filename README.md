@@ -2,7 +2,7 @@
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instalação e Execução](#instalacao-e-execucao)
+- [Instalação e Execução](#instalaçãoo-e-execução)
 - [Licença](#licença)  
 
 ## Sobre o Projeto
@@ -63,5 +63,5 @@ coverage report
 
 Nota: A cobertura de código gira em torno de 60% pois o código de interface gráfica (easygui) foi isolado da lógica de negócio testável. Para mais informações veja o README da atividade 5.
 
-Licença
+#### Licença
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
