@@ -2,7 +2,7 @@
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instalação e Execução](#instalaçãoo-e-execução)
+- [Instalação e Execução](#instalação-e-execução)
 - [Licença](#licença)  
 
 ## Sobre o Projeto
