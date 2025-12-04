@@ -52,11 +52,11 @@ python main4.py
 
 A interface gráfica da loja será aberta.
 
-- Testes e Qualidade
+#### Testes e Qualidade
 Para garantir a qualidade do software, foram aplicados testes na versão final (Atividade 5). Para executar os testes Unitários ( Dentro da pasta 'Atividade 5') :
 python -m unittest tests.py
 
-- Verificar Cobertura (Coverage)
+#### Verificar Cobertura (Coverage)
 
 Para gerar o relatório de cobertura de código:
 
