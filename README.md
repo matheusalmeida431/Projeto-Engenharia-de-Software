@@ -20,8 +20,6 @@ Repositório destinado a disciplina DCA3603 - Engenharia de Software. As ativida
 
 ### Estrutura do Projeto
 
-> *Esta seção pode variar conforme a organização do repositório de cada grupo.*
-
 ```
 Eng-de-Software-UFRN/
 ├── LICENSE
