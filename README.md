@@ -34,30 +34,33 @@ Eng-de-Software-UFRN/
 ### Instalação e Execução
 Siga os passos abaixo para rodar a versão final do projeto (localizada na Atividade 5).
 
-Clone o repositório:
-git clone [https://github.com/matheusalmeida431/Projeto-Engenharia-de-Software.git](https://github.com/matheusalmeida431/Projeto-Engenharia-de-Software.git)
-cd Projeto-Engenharia-de-Software
+##### Clone o repositório:
+> git clone [https://github.com/matheusalmeida431/Projeto-Engenharia-de-Software.git](https://github.com/matheusalmeida431/Projeto-Engenharia-de-Software.git)
+> cd Projeto-Engenharia-de-Software
 
-Instale as dependências: O projeto necessita das seguintes bibliotecas para interface gráfica e manipulação de imagens:
-pip install easygui requests Pillow coverage
+#### Instale as dependências: O projeto necessita das seguintes bibliotecas para interface gráfica e manipulação de imagens:
 
-Execute o Sistema (Loja Virtual): Navegue até a pasta da versão final e execute:
-cd "Atividade 5"
-python main4.py
+> pip install easygui requests Pillow coverage
+
+#### Navegue até a pasta da versão final e execute:
+
+> cd "Atividade 5"
+> python main4.py
 
 A interface gráfica da loja será aberta.
 
 #### Testes e Qualidade
 
 Para garantir a qualidade do software, foram aplicados testes na versão final (Atividade 5). Para executar os testes Unitários ( Dentro da pasta 'Atividade 5') :
-python -m unittest tests.py
+
+> python -m unittest tests.py
 
 #### Verificar Cobertura (Coverage)
 
 Para gerar o relatório de cobertura de código:
 
-coverage run --source=main4 -m unittest tests.py
-coverage report
+> coverage run --source=main4 -m unittest tests.py
+> coverage report
 
 Nota: A cobertura de código gira em torno de 60% pois o código de interface gráfica (easygui) foi isolado da lógica de negócio testável. Para mais informações veja o README da atividade 5.
 
