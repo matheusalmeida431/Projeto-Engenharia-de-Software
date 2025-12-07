@@ -60,11 +60,15 @@ Ao mudarmos para o modelo de *composição* (um Usuario tem um Vendedor), nós e
 *Explicação:* É melhor ter muitas interfaces pequenas e específicas do que uma única interface grande e genérica.
 
 *Aplicação no Projeto:*
-Atualmente, não temos interfaces explícitas, mas podemos projetar como elas seriam. Em vez de uma interface "genérica" IUsuario, poderíamos ter:
-* IComprador: com métodos como fazerPedido(), verHistoricoDeCompras().
-* IVendedor: com métodos como cadastrarProduto(), verRelatorioDeVendas().
+Na etapa final do desenvolvimento (MVP Refatorado), aplicamos este princípio ao segregar explicitamente a Interface de Lógica de Negócio da Interface Gráfica de Usuário.
 
-Um Usuario comum implementaria apenas IComprador. Quando ele se tornasse um vendedor, sua conta passaria a implementar também IVendedor. Isso garante que um usuário que é apenas comprador não tenha acesso a métodos de vendedor.
+No arquivo main4.py, dividimos as funcionalidades em dois tipos de métodos:
+
+Métodos Lógicos (_logica): Como cadastrar_usuario_logica e adicionar_produto_logica. Eles recebem dados puros e retornam resultados, sem saber que existe uma interface visual.
+
+Métodos Visuais: Como cadastrar_usuario e adicionar_produto. Eles lidam exclusivamente com a biblioteca easygui e a interação com o usuário.
+
+Isso garantiu que o nosso script de testes (tests.py), que atua como um "cliente" do sistema, pudesse consumir apenas a Lógica, sem ser forçado a depender da biblioteca gráfica easygui. Se não tivéssemos feito essa segregação, os testes automatizados seriam inviáveis ou extremamente complexos, pois dependeriam de cliques manuais em janelas que o script de teste não utiliza.
 
 ---
 
